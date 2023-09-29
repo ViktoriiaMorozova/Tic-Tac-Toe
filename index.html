@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Updog's Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+  <h1>Tic-Tac-Toe</h1>
+  <div class="board">
+    <div class="row">
+      <div class="cell" id="cell_1"></div>
+      <div class="cell" id="cell_2"></div>
+      <div class="cell" id="cell_3"></div>
+    </div>
+    <div class="row">
+      <div class="cell" id="cell_4"></div>
+      <div class="cell" id="cell_5"></div>
+      <div class="cell" id="cell_6"></div>
+    </div>
+    <div class="row">
+      <div class="cell" id="cell_7"></div>
+      <div class="cell" id="cell_8"></div>
+      <div class="cell" id="cell_9"></div>
+    </div>
+  </div>
+  <p class="winner"></p>
+  <button id="reset-button">Reset</button>
+  <button id="easy-level" onclick="randomMove()">Random Move</button>
+  <button id="hard-level" onclick="smartMove()">Smart Move</button>
+  <script src="index.js"></script>
 </body>
-</html>
