@@ -47,22 +47,22 @@ function cellClicked() {
     userClickCount++;
   }
 
-  if (randomMoveCall === 1) {
-    setTimeout(takeRandomEmptyCell(computerOMark), 150);
-  }
+  // if (randomMoveCall === 1) {
+  //   setTimeout(takeRandomEmptyCell(computerOMark), 150);
+  // }
 
-  if (smartMoveCall === 1) {
-    setTimeout(takeRandomAdjancedCell(computerOMark), 150);
-  }
+  // if (smartMoveCall === 1) {
+  //   setTimeout(takeRandomAdjancedCell(computerOMark), 150);
+  // }
 
 
   if (userClickCount === 1) {
     setTimeout(takeRandomEmptyCell(computerOMark), 150);
   }
 
-  if (userClickCount > 1) {
-    setTimeout(takeRandomAdjancedCell(computerOMark), 150);
-  }
+  // if (userClickCount > 1) {
+  //   setTimeout(takeRandomAdjancedCell(computerOMark), 150);
+  // }
 
 
 }
