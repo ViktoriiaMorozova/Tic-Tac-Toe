@@ -9,6 +9,7 @@ function openBoard() {
 //cells are each square, there are 9 cells 
 let cells = document.querySelectorAll(".cell");
 
+
 //player's move
 let playersXMark = "X";
 
@@ -256,26 +257,3 @@ function computerMove() {
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
