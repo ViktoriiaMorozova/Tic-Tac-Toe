@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p {
+    text-align: center;
+  }
+  
+  form {
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  
+  #reset-button {background-color:#F2F3F5;}
+  #start-button {background-color:#F2F3F5;}
+  #easy-level {background-color:#F2F3F5;}
+  #hard-level {background-color:#F2F3F5;}
+  
+  
+  
+  
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+    max-width: 320px;
+    align-items: center;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 2em;
+    cursor: pointer;
+    line-height: 100px;
+    background-color: #f2f2f2;
+    align-items: center;
+  }
+  
+  .cell:hover {
+    background-color: #e0e0e0;
+    color: #000;
+    align-items: center;
+  }
+  
+  .cell:nth-last-child(-n + 3) {
+    border-bottom: 5px solid #ffffff;
+    align-items: center;
+  }
+  
+  .cell:nth-child(3n+3) {
+    border-right: 5px solid #ffffff;
+    align-items: center;
+  }
+  
